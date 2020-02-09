@@ -9,7 +9,6 @@ class Login extends Component {
     password: "",
   }
 
-  // ?
   handleUpdate = event => {
     this.setState({
       [event.target.name]: event.target.value,
